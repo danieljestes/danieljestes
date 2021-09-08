@@ -1,4 +1,6 @@
-### Hi there 👋
+Daniel Jestes, He/him
+
+This respository holds everything for my personal Digital Portfolio for St. Lawrence University. 
 
 <!--
 **danieljestes/danieljestes** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
