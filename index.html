@@ -3,113 +3,39 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Daniel Jestes - Digital Portfolio</title>
+
+        <meta name="description" content="Daniel Jestes digital portfolio"> 
+        <meta name="author" content="Daniel Jestes">
+        
         <link rel="shortcut icon" type="image/jpg" href="DanielFavicon.ico">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"/>
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"/>
+        
+        <title>Daniel Jestes - Digital Portfolio</title>
     </head>
     <body>
         <div class="container">
-            <header>
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <div class="container-fluid">
-                        <a class="navbar-brand" href="#">Daniel Jestes</a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Link</a>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                     Dropdown
-                                    </a>
-                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                                        <li><hr class="dropdown-divider"></li>
-                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link disabled">Disabled</a>
-                                </li>
-                            </ul>
-                        <form class="d-flex">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-outline-success" type="submit">Search</button>
-                        </form>
-                    </div>
-                </nav>
-                <!-- <div class="container">
-                    <header class="d-flex justify-content-center py-3">
-                        <ul class="nav nav-pills">
-                            <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">About</a></li>
-                        </ul>
-                    </header>
-                </div> -->
-                <div class="row m-3 p-3 align-items-center">
-                    <div class="col-2">
-                        <figure>
-                            <img class="img-fluid" src="DanielFavicon.png" alt="Minimalist style portrait of Daniel Jestes">
-                            <figcaption>
-                                &copy; Some Copyright
-                            </figcaption>
-                        </figure>
-                    </div>
-                    <div class="col">
-                        <h1>CS 332: Webprogramming</h1>
-                        <h2>St. Lawrence University</h2>
-                        <h3>Fall 2021</h3>
-                    </div>
+            <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+                <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+                    <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
+                </a>
+            
+                <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+                    <li><a href="#" class="nav-link px-2 link-secondary">Home</a></li>
+                    <li><a href="#" class="nav-link px-2 link-dark">Features</a></li>
+                    <li><a href="#" class="nav-link px-2 link-dark">Pricing</a></li>
+                    <li><a href="#" class="nav-link px-2 link-dark">FAQs</a></li>
+                    <li><a href="#" class="nav-link px-2 link-dark">About</a></li>
+                </ul>
+            
+                <div class="col-md-3 text-end">
+                    <button type="button" class="btn btn-outline-primary me-2">Login</button>
+                    <button type="button" class="btn btn-primary">Sign-up</button>
                 </div>
             </header>
-            <div class="row">
-                <aside>
-                    <p id="hello">
-                        Hello bean master
-                    </p>
-                </aside>
-                <section>
-                    <article>
-                        <h1>Day 1</h1>
-                        <p>
-                            I ate some beans. Oh and we did some web stuff.
-                        </p>
-                        <p>
-                            We also learned some <code>cURL</code> stuff.
-                        </p>
-                    </article>
-                    <article>
-                        <h1>Day 2</h1>
-                        <p>
-                            We wrote some HTML stuff, I didn't eat beans. Lots of eggs though
-                        </p>
-                    </article>
-                </section>
-            </div>
-            <footer class="footer">
-                <div class="container">
-                    <footer class="align-items-center py-3 my-4 border-top">
-                        <div class="container text-center">
-                          <a class="text-muted" href="https://github.com/danieljestes" target="_blank" rel="noopener noreferrer"><i class="fa fa-github"></i></a>
-                          <a class="text-muted" href="https://www.linkedin.com/in/daniel-jestes-972965156" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin"></i></a>
-                        </div>
-                      </footer>
-                  </div>
-            </footer>
         </div>
-        
+
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
     </body>
 </html>
