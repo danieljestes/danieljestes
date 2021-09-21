@@ -6,3 +6,12 @@
 .font-common {
     font-family: geomanist;
 }
+
+body {
+    background-color: gray;
+}
+
+body > div 
+{
+    border-radius: 30px;
+}
